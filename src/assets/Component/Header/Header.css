@@ -1,0 +1,25 @@
+.header {
+  height: 80px;
+  width: 100%;
+  background-color: rgb(228, 224, 221);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header > img {
+  padding-left: 50px;
+  height: 50%;
+}
+
+.list-item {
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-evenly;
+  padding-right: 20px;
+}
+.item-list > a {
+  text-decoration: none;
+  padding-right: 20px;
+  color: black;
+  font-weight: bold;
+}
